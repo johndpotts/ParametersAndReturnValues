@@ -10,6 +10,10 @@ namespace ParametersAndReturnValues
     {
         static void Main(string[] args)
         {
+            SimpleCalculator calc = new SimpleCalculator();
+           
+            Console.WriteLine(calc.FindMaxOfThree(3,4,5));
+            Console.ReadLine();
         }
     }
 }
